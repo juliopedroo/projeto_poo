@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tela de Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="./telaLogin.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>GP BANK</h1>
+    </div>
+  </header>
+  
+  <div class="container">
+    <h2>Tela de Login</h2>
+    <h>Preencha os campos abaixo com suas informações de acesso!</h><br><br>
+    <form action="operacao_desejada.html" method="post">
+      <input type="text" class="numeroConta" placeholder="Número da Conta" required>
+      <input type="text" class="agencia" placeholder="Agência" required>
+      <input type="password" class="senha" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+
+    <br><br> 
+
+    <button id='return' type="submit" onclick="location.href='pagina_inicial.html'">Menu de Operações</button>
+
+  </div>
+</body>
+</html>

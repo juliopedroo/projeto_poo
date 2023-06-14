@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Extrato</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1>GP BANK</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Emissão do Extrato</h2>
+        <h>Abaixo está o seu extrato bancário.</h><br><br>
+        <form>
+            <div class="form-group">
+                <label for="telefone">Saque de</label><br>
+                <input type="text" id="valorSaque" value="R$120,00" disabled>
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Depósito de</label><br>
+                <input type="text" id="valorDepósito" value="R$220,00" disabled>
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Depósito de</label><br>
+                <input type="text" id="valorDepósito2" value="R$80,00" disabled>
+            </div>
+
+            <br><br>
+
+            <div>
+                <input type="text" id="saldoTotal" value="Saldo Total ........... R$120" disabled>
+            </div>          
+            
+        </form>
+
+        <div><br>
+            <button id="return" onclick="location.href='operacao_desejada.html'">Menu de Operações</button>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

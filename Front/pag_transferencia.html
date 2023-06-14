@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Transferência</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>GP BANK</h1>
+    </div>
+  </header>
+  
+  <div class="container">
+    <h2>Transferência</h2>
+    <h>Digite abaixo o valor e informações da conta à receber a tranferência</h><br><br>
+    <form action="sucesso_operacao.html" method="post">
+      <input type="number" placeholder="Valor da Transferência" min="1" step="0.1" required>
+      <input type="number" placeholder="Conta do Recebedor" required>
+      <input type="number" placeholder="Agência do Recebedor" required>
+      <button id='return' type="submit">Transferir</button>
+    </form>
+
+    <div><br>
+      <button id="exit" onclick="location.href='operacao_desejada.html'">Menu</button>
+    </div>
+
+  </div>
+</body>
+</html>
