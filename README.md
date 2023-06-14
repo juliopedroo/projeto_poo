@@ -5,8 +5,7 @@
     • Matéria: Programação Orientada à Objetos
     • Professor: Jeofton Melo
     • Programa: Sistema Bancário
-    • Vídeo de Demonstração: https://www.youtube.com/watch?v=qjthv1YpE38&ab_channel=J%C3%BAlioPedro
-
+    • Vídeo de Demonstração: https://www.youtube.com/watch?v=qjthv1YpE38
 
 ### Grupo👨‍💻
     1. Audvânio José da Silva Marinho Filho (RGM: 30196957) 
